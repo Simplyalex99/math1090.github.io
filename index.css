@@ -192,8 +192,8 @@ animation: gradient 8s ease infinite;
 
 .section-a h1{
   padding:2em 0 1.2em;
-  font-size:2.5rem;
-  transform: translate(0,90%);
+  font-size:50px;
+  transform: translate(0,80%);
   text-align: center;
   
 
@@ -222,7 +222,14 @@ animation: gradient 8s ease infinite;
 
 
 @media(max-width:700px){
+.section-a h1{
+  font-size:2.5rem;
+  top:0;
+  left:0;
+  right: 0;
+  bottom:0;
 
+}
 .section-a h1 span{
     display:none;
 }
